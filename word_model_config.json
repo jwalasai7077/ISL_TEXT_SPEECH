@@ -1,0 +1,32 @@
+{
+  "dataset_dir": "gesture_data",
+  "sequence_length": 20,
+  "window_stride": 2,
+  "feature_count": 126,
+  "model_name": "gesture_lstm_dnn_model.h5",
+  "scaler_name": "word_scaler.pkl",
+  "label_encoder_name": "word_label_encoder.pkl",
+  "class_names": [
+    "bad",
+    "call_me",
+    "good",
+    "good_luck",
+    "heart",
+    "hello",
+    "help",
+    "hug",
+    "i_love_you",
+    "more",
+    "no",
+    "ok",
+    "rock",
+    "sorry",
+    "stop",
+    "thank_you",
+    "yes",
+    "you"
+  ],
+  "epochs_ran": 100,
+  "seed": 42,
+  "test_accuracy": 1.0
+}
